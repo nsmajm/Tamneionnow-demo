@@ -1,0 +1,57 @@
+*{ font-family: Roboto, 'sans-serif'; }
+body{ background: #f4f4f4; }
+
+.form-control{ box-shadow: none; border-radius: 3px; }
+.page-wrapper{ padding: 70px 0 20px; }
+.page-wrapper .page-content{ padding-top: 40px; }
+
+.panel-sidebar .panel-heading{ font-weight: bold; }
+.panel-sidebar .panel-body .icon-box{
+	width: 80px;
+	height: 80px;
+	border:  1px solid red;
+}
+.panel-sidebar .panel-body .icon-box img{ width: 100%; }
+
+/* Header top */
+.header-top{ background-color: #283747; height: 70px; border-bottom-color: transparent; }
+.header-top .brand-logo{ width: 180px; height: 60px; margin-top: 3px; }
+.header-top .brand-logo .brand-logo-img{ width: 100%; }
+.header-top .navbar-nav li a{ color: #00AFF0; padding: 1.75em .8em; transition: all .4s ease-in-out; }
+.header-top .navbar-nav li a:hover{ color: #00AFF0; }
+.header-top .navbar-nav li .navbar-text{ display: inline-block; padding: 1.75em .8em; color: #CCC; margin-top: 0; cursor: text; }
+.header-top .navbar-nav li .navbar-text:hover{ color: #CCC; }
+.header-top .navbar-nav.nav-links{ margin-left: 30px; }
+.header-top .navbar-nav .dropdown-menu li a{ padding: .5em; }
+.header-top .navbar-nav>.open>a, .header-top .navbar-nav>.open>a:focus, .header-top .navbar-nav>.open>a:hover{ background-color: #fff; box-shadow: 0 6px 12px rgba(0,0,0,.175); }
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* header-nav */
+.header-nav{ background-color: #0076AB; }
+.header-nav .nav.nav-pills li a{ color: white; border-radius: 0; transition: all .4s ease-in-out; }
+.header-nav .nav.nav-pills li a:hover{ background-color: #00AFF0; }
+.header-nav .nav.nav-pills li.active a{ background-color: #00AFF0; }
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Workflow */
+.workflow{ margin-top: 15px; }
+.workflow .workflow-inner{ position: relative; background-color: #EAEDED; border: 1px solid #D5D8DC; padding: 1.5em; border-radius: 3px; text-align: center; }
+.workflow .workflow-inner .close-workflow{ position: absolute; right: -1px; top: -1px; padding: .2em .4em; color: white; background-color: #E74C3C; border-top-right-radius: 3px; }
+.workflow .workflow-inner .icon-box{ width: 80px; height: 80px; line-height: 73px; margin: 0 auto 20px; border-radius: 50%; background-color: #AEB6BF; border: 3px solid #808B96; transition: all .4s ease-in-out; }
+.workflow .workflow-inner .icon-box:hover{ background-color: #00AFF0; border-color: #0175A9; color: white; }
+.workflow .workflow-inner h4:first-of-type{ color: #01A44F; font-weight: bold; }
+.workflow .workflow-inner p:last-of-type{ margin-bottom: 0; }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Footer Styles */
+.footer{ background-color: #283747; padding: 3em 0; color: #919394; }
+.footer .footer-headline{ color: #ACACAC; margin-top: 0; font-family: 'Raleway', sans-serif; font-size: 1.5em; }
+.footer .brand-logo{ height: 70px; padding-right: 4em; }
+.footer .brand-logo .brand-logo-img{ width: 100%; }
+.footer .btn-subscribe{ margin-top: 40px; background-color: #52BE80; color: #FFF; font-weight: bold; }
+.footer a{ color: #919394; font-family: 'Roboto', sans-serif; }
+.footer a:hover{ color: #5ba835; }
+.footer .footer-links li a{ display: inline-block; padding: 5px 0;  }
+.footer-bottom .copyright-text{ margin-top: 8px; padding-top: 20px; border-top: 1px solid #5D6D7E; }
+.footer-bottom .copyright-text a{ color: white; }
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */

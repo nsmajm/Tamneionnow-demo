@@ -1,0 +1,34 @@
+/*
+	
+	Project Name 			:	Tameionnow Wesite Template Redesigned;
+	Project Description 	:	An ecommerce website template;
+	Author Name 			:	Saifur Rahman (Hasan);
+	Author Mobile Number 	:	+8801727213319;
+	Author Email 			:	saifur.dohs@gmail.com;	
+	__________________________________________________________________________________________________
+
+*/
+
+/* Fonts */
+.font-Roboto{ font-family: 'Roboto', sans-serif; }
+.font-Raleway{ font-family: 'Raleway', sans-serif; }
+/*#############################################################*/
+
+/* Icons */
+.fa{ vertical-align: middle; }
+/*##########################*/
+
+/* Helper Classes */
+.center-x{ position: absolute; left: 50%; transform: translateX(-50%);  }
+.center-y{ position: absolute; top: 50%; transform: translateY(-50%); }
+.center-xy{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.display-none, .hide{ display: none; }
+.display-block, .show{ display: block; }
+.display-table{ display: table; }
+.display-table > .display-table-cell{ display: table-cell; vertical-align: middle; }
+
+.cursor-pointer{ cursor: pointer; }
+
+/* Bootstrap Overwrite */
+.form-group:last-child{ margin-bottom: 0; }

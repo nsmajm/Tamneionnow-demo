@@ -1,0 +1,18 @@
+/* Workflow */
+.workflow{ margin-top: 15px; }
+.workflow .workflow-inner{
+	position: relative; background-color: #EAEDED; border: 1px solid #D5D8DC; padding: 1.5em;
+	border-radius: 3px; text-align: center;
+}
+.workflow .workflow-inner .close-workflow{
+	position: absolute; right: -1px; top: -1px; padding: .2em .4em; color: white;
+	background-color: #E74C3C; border-top-right-radius: 3px;
+}
+.workflow .workflow-inner .icon-box{
+	width: 80px; height: 80px; line-height: 73px; margin: 0 auto 20px; border-radius: 50%;
+	background-color: #AEB6BF; border: 3px solid #808B96; transition: all .4s ease-in-out;
+}
+.workflow .workflow-inner .icon-box:hover{ background-color: #00AFF0; border-color: #0175A9; color: white; }
+.workflow .workflow-inner h4:first-of-type{ color: #01A44F; font-weight: bold; }
+.workflow .workflow-inner p:last-of-type{ margin-bottom: 0; }
+/* //////////////////////////////////////// */

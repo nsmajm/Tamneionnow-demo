@@ -1,0 +1,12 @@
+/* Header top */
+.header-top{ background-color: #283747; height: 70px; border-bottom-color: transparent; }
+.header-top .brand-logo{ width: 180px; height: 60px; margin-top: 3px; }
+.header-top .brand-logo .brand-logo-img{ width: 100%; }
+.header-top .navbar-nav li a{ color: #00AFF0; padding: 1.75em .8em; transition: all .4s ease-in-out; }
+.header-top .navbar-nav li a:hover{ color: #00AFF0; }
+.header-top .navbar-nav li .navbar-text{ display: inline-block; padding: 1.75em .8em; color: #CCC; margin-top: 0; cursor: text; }
+.header-top .navbar-nav li .navbar-text:hover{ color: #CCC; }
+.header-top .navbar-nav.nav-links{ margin-left: 30px; }
+.header-top .navbar-nav .dropdown-menu li a{ padding: .5em; }
+.header-top .navbar-nav>.open>a, .header-top .navbar-nav>.open>a:focus, .header-top .navbar-nav>.open>a:hover{ background-color: #fff; box-shadow: 0 6px 12px rgba(0,0,0,.175); }
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

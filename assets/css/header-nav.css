@@ -1,0 +1,6 @@
+/* header-nav */
+.header-nav{ background-color: #0076AB; }
+.header-nav .nav.nav-pills li a{ color: white; border-radius: 0; transition: all .4s ease-in-out; }
+.header-nav .nav.nav-pills li a:hover{ background-color: #00AFF0; }
+.header-nav .nav.nav-pills li.active a{ background-color: #00AFF0; }
+/* End header-nav */
